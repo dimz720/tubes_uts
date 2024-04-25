@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillRoom </title>
+    <!-- FONTAWESOME CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- GOOGLE FONTS (MOTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--swiper.js-->
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <!--STYLE.CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-image: url(./images/bg-texture.png);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html"><h4>SkillRoom</h4></a>
+        <ul class="nav_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </nav>
+    <!--------------------NAVBAR----------------------->
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <h1>Selamat Datang Para Pencari Bakat </h1>
+          <p>
+            SkillRoom adalah ruang di mana bakat-bakat terpendam ditemukan dan diasah menjadi
+             gemilang melalui pendekatan yang inovatif dan berorientasi pada pengembangan potensi.
+          </p>
+          <a href="contact.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header_right">
+          <div class="header_right-image">
+            <img src="./images/header.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--------------------HEADER----------------------->
+    <section class="categories">
+      <div class="container categories_container">
+        <div class="categories_left">
+          <h1>Categories</h1>
+          <p>
+            Berikut adalah beberapa kategori yang dapat kalian pilih untuk mengembangkan minat dan bakat kalian semua
+          </p>
+          <a href="courses.html" class="btn">Learn More</a>
+        </div>
+        <div class="categories_right">
+          <article class="category">
+            <span class="category_icon"
+              ><i class="fa-brands fa-bitcoin"></i
+            ></span>
+            <h5>Blockchain</h5>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="fa-solid fa-pen-nib"></i
+            ></span>
+            <h5>Graphic Design</h5>
+          </article>
+          <article class="category">
+            <span class="category_icon"><i class="fa-solid fa-coins"></i></span>
+            <h5>Finance</h5>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="fa-solid fa-shop"></i></i
+            ></span>
+            <h5>Marketing</h5>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="fa-solid fa-music"></i></span>
+            <h5>Music</h5>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="fa-solid fa-business-time"></i></span>
+            <h5>Business</h5>
+          </article>
+        </div>
+      </div>
+    </section>
+        <!--------------------CATEGORIES----------------------->
+        <section class="courses">
+          <h2>Our Popular Courses</h2>
+          <div class="container courses_container">
+            <article class="course">
+              <div class="course_image">
+                <img src="./images/desain.jpg">
+              </div>
+              <div class="course_info"><h4>Desain Grafis</h4>
+                <p>belajar desain grafis di Skillroom adalah pengalaman yang mendalam dan bermakna. 
+                  Anda akan dikembangkan oleh instruktur berpengalaman, memiliki akses ke kurikulum yang komprehensif, dan dapat berkolaborasi dengan sesama pembelajar.
+                   Dengan menyelesaikan kursus, Anda akan memiliki keterampilan praktis dan portofolio yang kuat untuk sukses di industri desain grafis.</p>
+                <a href="contact.html" class="btn btn-primary">Learn More</a>
+              </div>
+            </article>
+            <article class="course">
+              <div class="course_image">
+                <img src="./images/music.jpg">
+              </div>
+              <div class="course_info">
+                <h4>Music</h4>
+              <p>Belajar musik di Skillroom merupakan pengalaman yang membangun. Dengan bimbingan dari instruktur berbakat,
+                 Anda akan menjelajahi berbagai aspek musik, mulai dari teori dasar hingga teknik performa yang canggih.
+                 Dengan menyelesaikan kursus musik di Skillroom, Anda akan keluar dengan pengetahuan yang mendalam dan keterampilan
+                  praktis yang dapat Anda terapkan dalam berbagai konteks musik.</p>
+              <a href="contact.html" class="btn btn-primary">Learn More</a>
+              </div>
+            </article>
+            <article class="course">
+              <div class="course_image">
+                <img src="./images/bisnis.jpg">
+              </div>
+              <div class="course_info"><h4>Bisnis</h4>
+                <p>Belajar bisnis di Skillroom adalah pengalaman yang menantang dan membangun. 
+                  Dengan panduan dari instruktur yang berpengalaman, Anda akan menjelajahi berbagai aspek bisnis, 
+                  mulai dari manajemen dan pemasaran hingga keuangan dan strategi.Anda akan memiliki akses ke kurikulum yang komprehensif,
+                   yang dirancang untuk memberikan pemahaman yang mendalam tentang konsep-konsep bisnis yang penting dan mendorong penerapan praktis melalui proyek-proyek yang relevan. </p>
+                <a href="contact.html" class="btn btn-primary">Learn More</a>
+              </div> 
+            </article>
+          </div>
+        </section>
+        <!----------COURSES ------------------>
+        <section class="faqs">
+          <h2>Frequently Asked Questions?</h2>
+          <div class="container faqs_container">
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Apa itu Skillroom?
+                </h4>
+                <p>Skillroom adalah platform pembelajaran daring yang menyediakan berbagai kursus dan pelatihan dalam berbagai bidang, mulai dari teknologi hingga seni dan bisnis.</p>
+              </div>
+            </article>
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Bagaimana cara mendaftar di Skillroom?</h4>
+                <p>Untuk mendaftar di Skillroom, Anda perlu membuat akun dengan mengisi formulir pendaftaran di situs web Skillroom dan mengikuti langkah-langkah yang diberikan. </p>
+              </div>
+            </article>
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Apa saja kategori kursus yang tersedia di Skillroom?</h4>
+                <p>Skillroom menawarkan berbagai kategori kursus, termasuk teknologi, seni, bisnis, bahasa, dan banyak lagi. Anda dapat menemukan kursus yang sesuai dengan minat dan kebutuhan Anda.</p>
+              </div>
+            </article>
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Bagaimana memilih kursus yang tepat untuk saya?</h4>
+                <p>Anda dapat memilih kursus yang tepat dengan mempertimbangkan minat, tujuan, dan tingkat keahlian Anda. Skillroom menyediakan deskripsi kursus dan ulasan dari peserta sebelumnya yang dapat membantu Anda dalam memilih.</p>
+              </div>
+            </article>
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Bagaimana cara mengakses kursus setelah mendaftar?</h4>
+                <p>Setelah mendaftar dan masuk ke akun Anda di Skillroom, Anda dapat mengakses kursus yang Anda daftarkan melalui dashboard Anda. Anda dapat mulai belajar langsung dari sana.</p>
+              </div>
+            </article>
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Apakah Skillroom menawarkan sertifikat setelah menyelesaikan kursus?</h4>
+                <p>Ya, Skillroom menyediakan sertifikat untuk beberapa kursus setelah Anda menyelesaikan semua materi yang diperlukan dan memenuhi persyaratan penilaian.</p>
+              </div>
+            </article>
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Apakah ada biaya untuk mengakses kursus di Skillroom?</h4>
+                <p>Beberapa kursus di Skillroom dapat diakses secara gratis, sementara kursus-kursus lainnya mungkin memerlukan pembayaran untuk mengakses seluruh konten. Harga dan informasi tentang biaya bisa hubungi admin Skillroom.</p>
+              </div>
+            </article>
+            <article class="faq">
+              <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="question_answer">
+                <h4>Bagaimana jika saya memiliki masalah saat belajar di Skillroom?</h4>
+                <p>Jika Anda memiliki pertanyaan tambahan atau mengalami masalah saat belajar di Skillroom, Anda dapat menghubungi tim dukungan pelanggan mereka melalui email atau formulir kontak yang disediakan di situs web. Tim dukungan pelanggan Skillroom siap membantu Anda dengan pertanyaan atau masalah yang Anda hadapi.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+ <!---------------------------------- FAQS ------------------>
+        <section class="container testimonials_container mySwiper">
+          <h2>Student's Testimonials</h2>
+          <div class="swiper-wrapper">
+            <article class="testimonials swiper-slide">
+              <div class="avatar">
+                <img src="./images/gambar1.jpg">
+              </div>
+              <div class="testimonials_info">
+                <h5>Jihan</h5>
+                <small>student</small>
+              </div>
+              <div class="testimonials_body">
+                <p>
+                  Kurikulum yang disusun secara cermat untuk pertumbuhan yang berkelanjutan
+                </p>
+              </div>
+            </article>
+            <article class="testimonials swiper-slide">
+              <div class="avatar">
+                <img src="./images/gambar2.jpg">
+              </div>
+              <div class="testimonials_info">
+                <h5>mail</h5>
+                <small>student</small>
+              </div>
+              <div class="testimonials_body">
+                <p>
+                  Kursus yang beragam, sesuai dengan minat dan kebutuhan individu.
+                </p>
+              </div>
+            </article>
+            <article class="testimonials swiper-slide">
+              <div class="avatar">
+                <img src="./images/gambar3.jpg">
+              </div>
+              <div class="testimonials_info">
+                <h5>adam </h5>
+                <small>student</small>
+              </div>
+              <div class="testimonials_body">
+                <p>
+                  Peluang untuk bertemu dan belajar dari sesama pembelajar.
+                </p>
+              </div>
+            </article>
+            <article class="testimonials swiper-slide">
+              <div class="avatar">
+                <img src="./images/gambar4.jpg">
+              </div>
+              <div class="testimonials_info">
+                <h5>Hajia</h5>
+                <small>student</small>
+              </div>
+              <div class="testimonials_body">
+                <p>
+                  Platform yang mudah digunakan dan ramah pengguna.
+                </p>
+              </div>
+            </article>
+            <article class="testimonials swiper-slide">
+              <div class="avatar">
+                <img src="./images/gambar5.jpg">
+              </div>
+              <div class="testimonials_info">
+                <h5>Nazia</h5>
+                <small>student</small>
+              </div>
+              <div class="testimonials_body">
+                <p>
+                  Kemampuan untuk mengembangkan keterampilan secara praktis.
+                </p>
+              </div>
+            </article>
+            <article class="testimonials swiper-slide">
+              <div class="avatar">
+                <img src="./images/gambar6.jpg">
+              </div>
+              <div class="testimonials_info">
+                <h5>lia</h5>
+                <small>student</small>
+              </div>
+              <div class="testimonials_body">
+                <p>
+                  Pengakuan atas pencapaian dan partisipasi yang signifikan.
+                </p>
+              </div>
+            </article>
+            <article class="testimonials swiper-slide">
+              <div class="avatar">
+                <img src="./images/gambar7.jpg">
+              </div>
+              <div class="testimonials_info">
+                <h5>fira</h5>
+                <small>student</small>
+              </div>
+              <div class="testimonials_body">
+                <p>
+                  Kesempatan untuk menjelajahi minat baru dan meningkatkan karir atau hobi.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-pagination"></div>
+        </section>
+ <!--------------------------------------TESTIMONIALS --------------------------------------->
+        <footer footer>
+          <div class="container footer_container">
+            <div class="footer_1">
+              <a href="./index.html" class="footer_logo"><h4>SkillRoom</h4></a>
+              <p>
+                Kursus Online No.1 di Indonesia yang memiliki pembimbing profesional
+              </p>
+            </div>
+
+            <div class="footer_2">
+              <h4>Permalinks</h4>
+              <ul class="premalinks">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./courses.html">Courses</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_3">
+              <h4>Primacy</h4>
+              <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_4">
+              <h4>Contact Us</h4>
+            <div>
+            <p>+62 81335367121</p>
+            <p>skill.room@gmail.com</p>
+            </div>
+
+            <ul class="footer_socials">
+              <li>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+        
+              <li>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+        
+              <li>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+        
+            </ul>
+            </div>
+          <div class="footer">
+            <small> &copy; SkillRoom</small>
+          </div>
+          </div>
+        </footer>
+        <!----------LINK JAVASCRIPT  & swiper.js for testimonials ------------------>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+       var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      //when window width is >=600px
+      breakpoints: {
+        640: {
+         
+         slidesPerView: 2,
+        }
+      }
+    });
+    </script>
+
+  </body>
+</html>
